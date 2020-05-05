@@ -1,0 +1,116 @@
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+  }
+  #heading{
+      font-family: fantasy;
+      font-size: 50px;
+      color: rgb(16, 124, 167);
+      text-align: center;
+  }
+.level{
+    color: aqua;
+    background-color: transparent;
+    margin: 5%;
+    border: transparent;
+    font-family: fantasy;
+    font-size: 150%;
+
+
+}
+#id{
+    display: flex;
+}
+#gameBoard{
+    display: grid;
+    width: 50vw;
+    height: 40vh;
+   align-self: baseline; 
+   margin: 2vh 25vw 5vh 25vw;
+  
+}
+    
+#choose {
+    text-align-last: center;
+}
+.box{
+    /* background-color: #020715; */
+    color: #3b96cc;
+    text-align: center;
+     font-size:200% ;
+     width: 3em;
+     border-radius: 10%;
+     align-items: center;
+     border: 2px solid gray;
+     margin: 4px;
+     transition: 0.2s ease-in;
+     animation-direction: alternate;
+     padding: 0.5em;
+     border: 2px solid black;
+   }
+
+
+#k{
+    text-align: center;
+    color: #23afc5;
+}
+@media screen and (max-width:440px){
+    .level{
+      margin:auto
+    }
+    #gameBoard{
+        width: 100%;
+        grid-row: 2px;
+        align-content: center;
+        box-sizing: border-box;
+        border: 1px solid black;
+        align-items: center;      
+       
+    }
+  }
+  .box:hover{
+      box-shadow: 0 0 10px #23afc5,0 0 40px #23afc5,0 0 80px #23afc5;
+      background-color:rgba(35, 175, 197 ,0.5);
+      transition: 0.2s;
+      transform: translateY(-0.5rem);
+ }
+ 
+  #k{
+      font-size: 500%;
+  }
+  #score{
+      color: rgb(88, 230, 218);
+      float: right;
+      font-family: fantasy;
+      font-size: xx-large;
+  }
+.end{
+    text-align: center;
+    color: turquoise;
+    font-size: 70px;
+    font-family: fantasy;
+    
+    
+}
+#newGame{
+    text-align: right;
+    color: turquoise;
+    font-size: 40px;
+    font-family: fantasy;
+  
+}
+
+
+#highscores{
+    font-size: 30px;
+    color: #23afc5;
+}
+#hs{
+    color: cyan;
+    font-size: 30px;
+}

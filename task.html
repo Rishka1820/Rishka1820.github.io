@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" type="text/CSS" href="task.css">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Stars.mp4" type="video/mp4">
+    </video>
+    <h1 id="heading" > <strong> FORTY SHADES OF GRAY</strong></h1>
+    <div id='hs'>HIGH SCORES</div>
+    <div id="highscores" ></div>
+
+
+   
+    <div id="score">
+        <span>TIME</span>
+        <br>
+        <div id="stopwatch">0:00</div>
+    </div>
+    
+    <div id="choose">
+        <input type="button" id="start1" class="level" value="EASY" onclick="timer(4)">
+        <input type="button" id="start2" class="level" value="MEDIUM" onclick="timer(5)">
+        <input type="button" id="start3" class="level" value="HARD" onclick="timer(6)">
+    </div>
+    <div id='k'></div>
+    <div id="newGame" style="visibility: collapse;"></div>
+    <br>
+    <div id='gameBoard'></div>
+    
+</body>
+<script type="text/javascript" src="task.js"></script>
+
+</html>
