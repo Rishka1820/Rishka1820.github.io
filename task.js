@@ -54,7 +54,7 @@ function timer(r) {
         score=JSON.parse(localStorage.getItem("highscores1"));
         for(let i=0;i<score.length;i++){
 
-          scores.innerHTML= scores.innerHTML + ' ' +[i]+ ' ' ;
+          scores.innerHTML= scores.innerHTML + ' ' +score[i]+ ' ' ;
         }
 
         console.log(scores.innerHTML);
