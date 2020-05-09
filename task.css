@@ -78,7 +78,7 @@
     }
     #highscores{
      
-      font-size: 20px;
+      font-size: 15px!important;
     }
     #k{
        margin: 100px;
@@ -88,7 +88,7 @@
     }
     #hs{
      
-      font-size: 20px;
+      font-size: 25px!important;
     }
     #gameBoard{
        max-width: 100%;
@@ -97,13 +97,13 @@
         box-sizing: border-box;
         align-items: center;    
         margin: 20vh 0vw 0vh 0vw; 
-        width: auto;
+        width: 100vw;
     
        
        
     }
     #score{
-        float: right;
+        float: right!important;
     }
     #stopwatch{
         float: right;
@@ -119,7 +119,7 @@
     }
     #newGame{
         align-self: center;
-       font-size: 10px;
+       font-size: 30px!important;
        float: left;
        margin: 10px;
     }
